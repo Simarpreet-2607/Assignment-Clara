@@ -1,0 +1,414 @@
+{
+  "name": "Version 2",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -16,
+        80
+      ],
+      "id": "e5c49586-507e-4606-9e51-180963fbd9db",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "fileSelector": "/home/node/.n8n-files/outputs/bens_electric/v1/memo.json",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1.1,
+      "position": [
+        272,
+        -112
+      ],
+      "id": "a8e46877-c3b9-4669-aaed-5153e14b40b7",
+      "name": "Read/Write Files from Disk"
+    },
+    {
+      "parameters": {
+        "fileSelector": "/home/node/.n8n-files/transcript.txt",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1.1,
+      "position": [
+        256,
+        304
+      ],
+      "id": "7092ca2c-9472-40d1-89c2-b0fdbf5350a2",
+      "name": "Read/Write Files from Disk1"
+    },
+    {
+      "parameters": {
+        "operation": "fromJson",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1.1,
+      "position": [
+        480,
+        -112
+      ],
+      "id": "59850e00-6103-4cfd-9e7f-5d0c83f801a4",
+      "name": "Extract from File"
+    },
+    {
+      "parameters": {
+        "operation": "text",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1.1,
+      "position": [
+        464,
+        304
+      ],
+      "id": "3af2d367-f255-4d65-939c-15fa997fb58f",
+      "name": "Extract from File1"
+    },
+    {
+      "parameters": {
+        "mode": "combine",
+        "combineBy": "combineByPosition",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.2,
+      "position": [
+        944,
+        80
+      ],
+      "id": "8a51f76c-94a3-4e7b-9c39-e3d2002bf40c",
+      "name": "Merge"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=You are a Configuration Version Control Engineer for Clara AI. You are processing the following live data inputs:\n\nThe Input Context\nExisting v1 Draft: {{ $json.v1_memo_data }}\n\nNew Onboarding Transcript: {{ $json.new_transcript_text }}\n\nStep 1: The Logic (Comparison & Patch)\nAudit: Identify all null, unknown, or incomplete fields in the v1_memo_data.\n\nResolve: Use the new_transcript_text to find the Office Address, Business Hours, and the Emergency Transfer Number Ben provided.\n\nVersion: Produce an updated Account Memo. Set version to \"v2\" and status to \"Production Ready\".\n\nStep 2: Documentation (Changelog)\nCreate a Markdown table summarizing every change made.\n\nFormat: | Field | Old Value (v1) | New Value (v2) | Reason |\n\nStep 3: Operational Spec (System Prompt)\nUpdate the Clara voice agent's system prompt.\n\nEnsure it contains the specific emergency routing rules (e.g., transfer to Ben for burst pipes) and the verified phone number.\n\nCRITICAL: OUTPUT INSTRUCTIONS\nYou must output your response ONLY as a raw JSON object matching the connected schema. * Do NOT include Markdown code blocks (e.g., no ```json).\n\nDo NOT include any introductory or concluding text.\n\nPopulate the v2_memo field with the JSON object and the changelog_data field with the Markdown string.\n\nConstraint: If a piece of info is still missing, keep it as null. DO NOT hallucinate.",
+        "hasOutputParser": true,
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 3.1,
+      "position": [
+        1216,
+        -96
+      ],
+      "id": "0bd070d4-691c-4c5b-a20d-ef9ffba0964b",
+      "name": "AI Agent"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "d989e748-8e57-4d59-a379-367748554b1e",
+              "name": "v1_memo_data",
+              "value": "={{ $json.data[0].output }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        688,
+        -112
+      ],
+      "id": "2407efd1-af76-46c9-8a4d-5b8cc79fe534",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "fe75eddb-2731-4637-8dc3-6535fefca562",
+              "name": "new_transcript_text",
+              "value": "={{ $json.data }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        672,
+        304
+      ],
+      "id": "b768d0a3-69b4-49b0-ba54-23b00498a94a",
+      "name": "Edit Fields1"
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "/home/node/.n8n-files/outputs/bens_electric/changelog.md",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1.1,
+      "position": [
+        1808,
+        160
+      ],
+      "id": "327a8e5b-e6b1-4f5d-a39c-dbfdc2029350",
+      "name": "Read/Write Files from Disk3"
+    },
+    {
+      "parameters": {
+        "jsonSchemaExample": "{\n  \"v2_memo\": \"The finalized JSON object for the account memo goes here.\",\n  \"changelog_data\": \"The Markdown text for the changelog goes here.\"\n}"
+      },
+      "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
+      "typeVersion": 1.3,
+      "position": [
+        1360,
+        144
+      ],
+      "id": "2ab99599-c56a-428b-a2e5-22997ecd9abf",
+      "name": "Structured Output Parser1"
+    },
+    {
+      "parameters": {
+        "operation": "toText",
+        "sourceProperty": "output.changelog_data",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        1600,
+        160
+      ],
+      "id": "ac832b98-46ce-4cbe-bbee-951723bd927f",
+      "name": "Convert to File1"
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "/home/node/.n8n-files/outputs/bens_electric/v2/memo.json",
+        "dataPropertyName": "=data",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1.1,
+      "position": [
+        1776,
+        -96
+      ],
+      "id": "9c5ad4b0-542a-4d15-8994-0c418f402b53",
+      "name": "Read/Write Files from Disk2"
+    },
+    {
+      "parameters": {
+        "operation": "toText",
+        "sourceProperty": "=output.v2_memo",
+        "options": {
+          "fileName": "memo.json"
+        }
+      },
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        1568,
+        -96
+      ],
+      "id": "54f2e44a-38dd-4b28-b598-09e3b91e73b4",
+      "name": "Convert to File"
+    },
+    {
+      "parameters": {
+        "model": "llama-3.3-70b-versatile",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGroq",
+      "typeVersion": 1,
+      "position": [
+        1216,
+        160
+      ],
+      "id": "1a32beb6-9898-41c0-a2c0-947c8ddf0ae4",
+      "name": "Groq Chat Model",
+      "credentials": {
+        "groqApi": {
+          "id": "Giyvz8xE3dy9lIfM",
+          "name": "Groq account 3"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Read/Write Files from Disk1",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Read/Write Files from Disk",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read/Write Files from Disk1": {
+      "main": [
+        [
+          {
+            "node": "Extract from File1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read/Write Files from Disk": {
+      "main": [
+        [
+          {
+            "node": "Extract from File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract from File": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract from File1": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Merge": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Agent": {
+      "main": [
+        [
+          {
+            "node": "Convert to File1",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Convert to File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields1": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Structured Output Parser1": {
+      "ai_outputParser": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_outputParser",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Convert to File1": {
+      "main": [
+        [
+          {
+            "node": "Read/Write Files from Disk3",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Convert to File": {
+      "main": [
+        [
+          {
+            "node": "Read/Write Files from Disk2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Groq Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "versionId": "7635c324-1c64-4c81-9471-52d79c79e1ed",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "b26ea6c19e10a0cbce16dc495b5521325684c6cf84719ae7e6aba5bd20777d06"
+  },
+  "id": "f38xod2VBco2lV6g",
+  "tags": []
+}
