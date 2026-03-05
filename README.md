@@ -23,6 +23,3 @@ The system runs on a dataset of demo calls and onboarding calls and generates ou
 
 ---
 
-# Architecture
-
-The automation workflow follows the pipeline below:
