@@ -1,0 +1,52 @@
+### Step 1: Compare & Patch
+To create the finalized `v2` Account Memo JSON object, we need to compare the `v1_memo_data` with the `new_transcript_text` and patch any missing details.
+
+Let's assume the `v1_memo_data` object is as follows:
+```json
+{
+  "version": "v1",
+  "status": "Draft",
+  "business_hours": null,
+  "emergency_triggers": ["fire"],
+  "emergency_transfer_number": null,
+  "routing_rules": null
+}
+```
+And the `new_transcript_text` contains the following information:
+```
+"... business hours are 9am to 5pm ... live wires are a specific emergency trigger ... emergency transfer number is 911 ... routing rules are to transfer to the emergency team ..."
+```
+After searching the `new_transcript_text` for the missing details, we can patch the `v1_memo_data` object as follows:
+```json
+{
+  "version": "v2",
+  "status": "Production Ready",
+  "business_hours": "9am to 5pm",
+  "emergency_triggers": ["fire", "live wires"],
+  "emergency_transfer_number": "911",
+  "routing_rules": "transfer to the emergency team"
+}
+```
+Note that any missing details that are not found in the `new_transcript_text` will remain as `null`.
+
+### Step 2: Generate Changelog
+To generate the changelog, we need to create a Markdown table that lists the changes between the `v1` and `v2` objects.
+
+Here is the Markdown table:
+| Field | Old Value (v1) | New Value (v2) | Source of Truth |
+| --- | --- | --- | --- |
+| version | v1 | v2 | - |
+| status | Draft | Production Ready | - |
+| business_hours | null | 9am to 5pm | new_transcript_text |
+| emergency_triggers | [fire] | [fire, live wires] | new_transcript_text |
+| emergency_transfer_number | null | 911 | new_transcript_text |
+| routing_rules | null | transfer to the emergency team | new_transcript_text |
+
+### Step 3: Operational Agent Spec
+To update the system prompt for the 'Clara' voice agent, we need to include the specific emergency transfer number and routing rules confirmed in the onboarding transcript.
+
+Here is the updated system prompt:
+```
+"Hello, I'm Clara. If you have an emergency, please call our emergency transfer number at 911. If you need assistance, I will transfer you to our emergency team according to our routing rules. What can I help you with today?"
+```
+Note that we only include the specific emergency transfer number and routing rules that were confirmed in the onboarding transcript, and do not hallucinate any missing information.

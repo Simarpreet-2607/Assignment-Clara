@@ -1,0 +1,8 @@
+| Field | Old Value (v1) | New Value (v2) | Reason |
+| account_id | BENS001 | BENS001 | No change |
+| company_name | Ben's Electric | Ben's Electric | No change |
+| business_hours | Monday to Friday, 8:30am to 5:00pm | Monday to Friday, 8:30am to 5:00pm | No change |
+| emergency_definition | ["power outages", "urgent electrical issues for existing clients (e.g. G&M Pressure Wash)"] | ["power outages", "urgent electrical issues for existing clients (e.g. G&M Pressure Wash)"] | No change |
+| questions_or_unknowns | ["Second phone number setup", "Configuration of call forwarding", "Handling of spam calls", "Edge cases for sales calls"] | [] | All questions resolved |
+| office_address | null | null | Still missing |
+| emergency_transfer_number | null | null | Still missing |

@@ -1,0 +1,11 @@
+{
+  "account_id": "BENS001",
+  "company_name": "Ben's Electric",
+  "business_hours": "Monday to Friday, 8:30am to 5:00pm",
+  "emergency_definition": ["power outages", "urgent electrical issues for existing clients (e.g. G&M Pressure Wash)"],
+  "questions_or_unknowns": [],
+  "office_address": null,
+  "emergency_transfer_number": null,
+  "version": "v2",
+  "status": "Production Ready"
+}
