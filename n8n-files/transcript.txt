@@ -1,0 +1,922 @@
+00:00:03,900 --> 00:00:36,840 [speaker_0]
+Just give me a second. We'll let Ben in. Okay, so Naveen's... Can I change his name to Cla-
+Actually, going forward, Naveen, if you can put Clara's display picture, that'll be helpful.
+
+00:00:36,880 --> 00:00:37,020 [speaker_1]
+Yes.
+
+00:00:37,030 --> 00:00:57,080 [speaker_0]
+Problems? We good? All right. Letting him in in three, two, one, and Ben is in. Very sweet guy,
+by the way. He's in. Hey, Ben. Good afternoon. Um-
+
+00:00:57,100 --> 00:01:00,240 [speaker_1]
+Oh. Oh, oh, wait. Oh, hey. Hi, good afternoon.
+
+00:01:00,260 --> 00:01:02,880 [speaker_0]
+Hey, Ben. How are you?
+
+00:01:02,920 --> 00:01:04,140 [speaker_1]
+I'm doing well. How are you?
+
+00:01:04,220 --> 00:01:14,260 [speaker_0]
+Very well. Thank you so much for asking. Really, really excited to kick things off for you. And, uh,
+yeah, I mean, uh, how have things been since the last time we spoke?
+
+00:01:15,120 --> 00:01:16,160 [speaker_1]
+Good. Busy.
+
+00:01:16,260 --> 00:01:18,010 [speaker_0]
+Busy. That's good. [laughs] That's good.
+
+00:01:18,010 --> 00:01:25,560 [speaker_1]
+Been scrambling around for sure, so it's, it's been fun. Um, yeah, I just signed the, um,
+the DocuSign.
+
+00:01:25,600 --> 00:01:26,400 [speaker_0]
+Oh, okay.
+
+00:01:26,420 --> 00:01:31,560 [speaker_1]
+And it did look like it said, um, like, a twelve-month term, and I think we
+were talking about three months to start?
+
+00:01:31,620 --> 00:01:38,300 [speaker_0]
+Correct. So what it means there is that after the three months, if you decide to continue,
+which I'm sure you will-
+
+00:01:38,320 --> 00:01:38,330 [speaker_1]
+Okay
+
+00:01:38,360 --> 00:01:44,840 [speaker_0]
+... the price will sim- stay the same. So that's what that twelve-month term me-means.
+So you'll be good.
+
+00:01:44,860 --> 00:01:45,480 [speaker_1]
+Perfect.
+
+00:01:45,500 --> 00:01:46,050 [speaker_0]
+It just helps you-
+
+00:01:46,050 --> 00:01:46,150 [speaker_1]
+Sounds good.
+
+00:01:46,150 --> 00:01:49,440 [speaker_0]
+-with the cost increase. Yeah. So you've signed the DocuSign?
+
+00:01:49,460 --> 00:01:50,260 [speaker_1]
+Yeah.
+
+00:01:50,320 --> 00:01:59,850 [speaker_0]
+Awesome. I think I'll be getting a notification from the billing team, and I think the card
+that you probably-- the details that you shared with me,
+
+00:01:59,850 --> 00:01:59,850 [speaker_1]
+Okay.
+
+00:01:59,860 --> 00:02:06,710 [speaker_0]
+But all that aside, I just wanted to introduce the, the new face
+that you can probably see on your screen. That's Pawan. And-
+
+00:02:06,710 --> 00:02:06,710 [speaker_1]
+Hello, Pawan.
+
+00:02:06,720 --> 00:02:21,800 [speaker_0]
+[laughs] Hey, Ben. I wanted to get somebody who, I mean, who understands things in and out,
+and turns out Pawan's the one who started the whole journey of Clara Answers,
+
+00:02:21,820 --> 00:02:21,900 [speaker_1]
+Okay.
+
+00:02:21,910 --> 00:02:31,290 [speaker_0]
+-this solution. So he'll match your pace, understand your expectations, and of course marry it
+and then present the solution to you. So he's gonna be-
+
+00:02:31,320 --> 00:02:31,329 [speaker_1]
+Okay.
+
+00:02:31,329 --> 00:02:39,480 [speaker_0]
+-your dedicated point of contact. But if in there's-- if any case--
+if at any point there has to be more people involved, we'll of course notify you,
+
+00:02:39,500 --> 00:02:40,860 [speaker_1]
+Okay. Sounds good.
+
+00:02:40,870 --> 00:02:46,500 [speaker_0]
+Yeah. That said, I'll let Pawan take over, and, uh, yeah, we'll kick things off.
+
+00:02:46,570 --> 00:02:47,280 [speaker_1]
+Yeah.
+
+00:02:47,300 --> 00:02:51,820 [speaker_0]
+Thank you so much, Bharath. Uh, and yeah, Bharath is my hype man, right? [laughs] You know,
+whenever-
+
+00:02:51,860 --> 00:02:52,240 [speaker_1]
+[laughs] Perfect.
+
+00:02:52,400 --> 00:03:18,140 [speaker_0]
+-with all the intro. Uh, but yeah. Uh, I'm super excited to get you started, Ben.
+I got all the context of your business, what you're trying to solve with, you know, the first, uh,
+
+00:03:18,150 --> 00:03:18,150 [speaker_1]
+Okay.
+
+00:03:18,180 --> 00:03:28,140 [speaker_0]
+Just couple of details, you know, some details that I wanted to clarify so that we can complete
+that configuration and make the agent available for your testing today itself, right?
+
+00:03:28,150 --> 00:03:28,150 [speaker_1]
+Okay.
+
+00:03:28,180 --> 00:03:37,990 [speaker_0]
+Uh, that'll be the target. The way the process would look like as well is, uh,
+we'll share the number on which the agent will be available and the dashboard as well, so that-
+
+00:03:37,990 --> 00:03:37,990 [speaker_1]
+Okay.
+
+00:03:38,020 --> 00:03:48,390 [speaker_0]
+-you know, you can run some test calls, see how the agent is responding, all of that. We, we--
+After this call, it's-- I'll share that details with you by making those final configurations.
+
+00:03:48,390 --> 00:03:48,390 [speaker_1]
+Okay.
+
+00:03:48,400 --> 00:04:01,460 [speaker_0]
+And then post that, we can probably set up another call for Friday, if you have some time,
+because you get this one day to really test and, you know, run some test calls, see
+
+00:04:01,470 --> 00:04:01,470 [speaker_1]
+Okay.
+
+00:04:01,500 --> 00:04:09,160 [speaker_0]
+And then, you know, we could probably, you know, have the agent take live calls this weekend, right?
+
+00:04:09,200 --> 00:04:09,520 [speaker_1]
+Okay.
+
+00:04:10,680 --> 00:04:23,040 [speaker_0]
+So firstly to, I mean, get an understanding,
+we'll divide the conversation into during office hours and after hours,
+
+00:04:23,080 --> 00:04:23,730 [speaker_1]
+Right. Okay
+
+00:04:24,080 --> 00:04:31,930 [speaker_0]
+... have for the agent. So for during office hours, Ben, uh,
+is it only you who takes all the incoming calls from customers, or is there anyone else as well?
+
+00:04:31,980 --> 00:04:34,700 [speaker_1]
+No. Right now it's just me. Yeah.
+
+00:04:34,710 --> 00:04:34,740 [speaker_0]
+Okay. And then-
+
+00:04:34,760 --> 00:04:34,950 [speaker_1]
+So-
+
+00:04:35,280 --> 00:04:35,960 [speaker_0]
+Mm-hmm.
+
+00:04:36,000 --> 00:04:43,640 [speaker_1]
+We have, we have some steady, like, contractors, uh,
+and they have the phone numbers for some of my team, so they can talk directly-
+
+00:04:43,760 --> 00:04:43,780 [speaker_0]
+Okay.
+
+00:04:43,790 --> 00:04:55,820 [speaker_1]
+-uh, for the, the guys in the field. But generally, like, what I need this for is the,
+the new clients, the small jobs, the service calls, people that call every day
+
+00:04:56,480 --> 00:04:56,550 [speaker_0]
+Oh, okay.
+
+00:04:56,550 --> 00:04:58,780 [speaker_1]
+But anyways, yeah, it's me that takes those calls.
+
+00:04:58,860 --> 00:05:06,840 [speaker_0]
+Oh, okay. Makes sense. Uh, and then, uh, so when Clara will be set up, the way it'll be set up
+is your main business line today, uh-
+
+00:05:06,860 --> 00:05:06,900 [speaker_1]
+Yeah.
+
+00:05:06,910 --> 00:05:10,740 [speaker_0]
+-by default, the forwarding will be set up from there to Clara.
+
+00:05:10,760 --> 00:05:10,770 [speaker_1]
+Okay.
+
+00:05:10,800 --> 00:05:19,280 [speaker_0]
+So, you know, we can start off with, uh... So what I understand from Bharath
+is you only have one number, and that is your personal number, that is your business line.
+
+00:05:19,300 --> 00:05:20,180 [speaker_1]
+Yeah.
+
+00:05:20,200 --> 00:05:23,920 [speaker_0]
+Do you, do you by any chance happen to have a second number?
+
+00:05:24,000 --> 00:05:31,060 [speaker_1]
+I do. I've got a... I was actually thinking about this a while ago.
+So I actually have another phone with a phone line that I'm gonna use for personal.
+
+00:05:31,080 --> 00:05:31,480 [speaker_0]
+Oh, that's perfect.
+
+00:05:31,560 --> 00:05:36,940 [speaker_1]
+Um, yeah, I just have to get it going and tell all my contacts my new number. Um-
+
+00:05:36,960 --> 00:05:38,100 [speaker_0]
+Perfect.
+
+00:05:38,160 --> 00:05:38,310 [speaker_1]
+Yeah. So-
+
+00:05:38,320 --> 00:05:40,500 [speaker_0]
+The way, the way it'll be... Mm-hmm.
+
+00:05:40,520 --> 00:05:46,020 [speaker_1]
+Yeah, I was gonna say, like, can I turn-- Until I get that done, am I able to turn Clara off
+and on as needed-
+
+00:05:46,030 --> 00:05:46,030 [speaker_0]
+Yes.
+
+00:05:46,040 --> 00:05:47,140 [speaker_1]
+-kind of thing? Or-
+
+00:05:47,160 --> 00:05:47,360 [speaker_0]
+Yes.
+
+00:05:47,370 --> 00:05:47,850 [speaker_1]
+Okay, cool. Thank you.
+
+00:05:47,860 --> 00:05:56,860 [speaker_0]
+So the way, uh, then we can-- The way we can set it up is, uh, you know, on your phone... Uh,
+do you use a iOS device, like an Apple device or an Android?
+
+00:05:57,720 --> 00:05:58,360 [speaker_1]
+Uh, Android.
+
+00:05:58,860 --> 00:06:32,952 [speaker_0]
+Perfect. That, that makes it even easier because you, you can really set some, uh... You know,
+the way we can start off is on your phone, you can set up the call forwarding in a way where
+
+00:06:33,052 --> 00:06:38,812 [speaker_1]
+Oh, I was actually gonna ask that today. So Clara can transfer.
+If somebody really needs to talk to me, Clara can transfer that call.
+
+00:06:38,852 --> 00:06:43,672 [speaker_0]
+Yes. That's where, that's where we'll need that second number. That's why.
+
+00:06:43,772 --> 00:06:44,992 [speaker_1]
+Oh, gotcha. Okay.
+
+00:06:45,112 --> 00:07:17,382 [speaker_0]
+Yep. So that is possible. Cool. Uh, so when the second number is up and running, probably that
+is one number that I'll need from you. You can just, uh, I'll send my--
+
+00:07:17,412 --> 00:07:28,532 [speaker_1]
+Yeah. Our structure is set up, like for service calls, um, we do have a service call fee, which
+is a hundred and fifteen dollars. That's a call-out, which is what gets us to the job site.
+
+00:07:28,542 --> 00:07:28,542 [speaker_0]
+Okay.
+
+00:07:28,592 --> 00:07:32,392 [speaker_1]
+And then our hourly charge is in half-hour increments after that.
+
+00:07:33,032 --> 00:07:33,432 [speaker_0]
+Okay.
+
+00:07:33,632 --> 00:07:37,832 [speaker_1]
+Um, at the hourly rate of ninety-eight dollars an hour for a residential.
+
+00:07:37,932 --> 00:07:40,872 [speaker_0]
+Oh, okay. Is it ninety-eight or ninety?
+
+00:07:40,892 --> 00:07:41,892 [speaker_1]
+Ninety-eight.
+
+00:07:41,972 --> 00:07:42,952 [speaker_0]
+Okay, cool. Perfect.
+
+00:07:42,972 --> 00:07:47,492 [speaker_1]
+Per hour, which for a half hour is gonna be, of course, uh, forty-
+
+00:07:47,532 --> 00:07:47,812 [speaker_0]
+Nine.
+
+00:07:47,822 --> 00:07:48,512 [speaker_1]
+-nine.
+
+00:07:48,552 --> 00:07:48,952 [speaker_0]
+Yep.
+
+00:07:48,972 --> 00:07:50,132 [speaker_1]
+Yeah.
+
+00:07:50,152 --> 00:07:58,612 [speaker_0]
+Cool. And then for the initial a hundred and fifteen. So for that, uh, do you have a-- like,
+does that cover for the first one or two hours or anything like that?
+
+00:07:58,652 --> 00:08:01,552 [speaker_1]
+No, that's just the call-out to get to site.
+
+00:08:01,612 --> 00:08:02,492 [speaker_0]
+Okay. And then-
+
+00:08:02,792 --> 00:08:04,092 [speaker_1]
+Yeah.
+
+00:08:04,152 --> 00:08:06,492 [speaker_0]
+Okay. So-
+
+00:08:06,532 --> 00:08:10,702 [speaker_1]
+So basically, it's a hundred and fifty dollars for the first half hour or a hundred and-
+
+00:08:11,112 --> 00:08:30,812 [speaker_0]
+Oh, okay. Yeah, that's what it... Okay. For the first, first half hour, it's the usual call-out fee,
+and then every half an hour increments from there. Perfect. Makes sense. So be-- And, uh,
+
+00:08:30,832 --> 00:08:38,012 [speaker_1]
+Yeah, I-- Most of the time, I've definitely learned that people need to know about that before we,
+before we book the job.
+
+00:08:38,052 --> 00:08:38,172 [speaker_0]
+Yeah.
+
+00:08:38,272 --> 00:08:43,212 [speaker_1]
+Um, so when people ask, uh, I do want Clara to be able to mention that. Um-
+
+00:08:44,612 --> 00:08:48,962 [speaker_0]
+Only if they want to clarify, we'll mention, but we'll not make it a point to mention on every call.
+
+00:08:48,992 --> 00:09:11,532 [speaker_1]
+I think so, yeah. I, I mean, I guess Clara actually speaks better than I do. Sorry, I'm trying to,
+um, mute my phone right now. I've got a whole bunch of notifications coming in here. Um, I,
+
+00:09:11,572 --> 00:09:14,632 [speaker_0]
+Yes, yes. No problem.
+
+00:10:00,012 --> 00:12:21,128 [speaker_1]
+Sorry, guys. I just gotta pay this guy. Be right back.Oh, so sorry, guys. Sorry, sorry, sorry.
+
+00:12:21,188 --> 00:12:24,808 [speaker_0]
+No problem at all. No problem. Cool.
+
+00:12:24,888 --> 00:12:28,598 [speaker_1]
+I, uh, yeah, I hate doing that. Sorry, sorry, uh, Pavan.
+
+00:12:28,598 --> 00:12:28,738 [speaker_0]
+No problem at all.
+
+00:12:28,738 --> 00:12:29,528 [speaker_1]
+Carry on.
+
+00:12:29,568 --> 00:12:41,548 [speaker_0]
+No problem at all. So we're s- we're, we're talking about, uh, service call fee,
+and we'll only include... You know, we'll not make it a point to mention it on all calls, but,
+
+00:12:41,588 --> 00:12:42,058 [speaker_1]
+Yeah, when, when people ask about fees.
+
+00:12:42,058 --> 00:12:44,798 [speaker_0]
+We'll have that information, and when peop- yeah, when people ask for-
+
+00:12:44,798 --> 00:12:44,798 [speaker_1]
+Yeah
+
+00:12:44,798 --> 00:12:48,388 [speaker_0]
+... if there is a minimum fee or anything of that nature.
+
+00:12:48,398 --> 00:12:48,398 [speaker_1]
+Yeah.
+
+00:12:48,408 --> 00:12:57,588 [speaker_0]
+Right? Cool. And then for everything else, uh, yeah, I think everything else
+is clear from the website already. So we'll start off there.
+
+00:12:57,598 --> 00:12:57,598 [speaker_1]
+Yeah.
+
+00:12:57,608 --> 00:13:04,528 [speaker_0]
+But, you know, we can, uh, any day as the calls come in, you know, we can make changes. It's not,
+like, very rigid in that way.
+
+00:13:04,548 --> 00:13:04,558 [speaker_1]
+Mm-hmm. Sure.
+
+00:13:04,568 --> 00:13:13,888 [speaker_0]
+So if you'd want to include some policies or, you know,
+if you'd want a specific type of calls handled a d- a little differently, all of that we can,
+
+00:13:13,898 --> 00:13:13,898 [speaker_1]
+That's perfect
+
+00:13:13,898 --> 00:13:15,068 [speaker_0]
+... as and when they pop up.
+
+00:13:16,048 --> 00:13:16,248 [speaker_1]
+Okay.
+
+00:13:16,328 --> 00:13:29,168 [speaker_0]
+Um, so that was one. The other one is, uh,
+so we can send out a notification whenever there's a new call.
+
+00:13:29,208 --> 00:13:38,088 [speaker_1]
+Yeah. Um, let me just think here. Probably the best one, um, info@benselectricsolutionsteam.com.
+
+00:13:38,188 --> 00:13:44,488 [speaker_0]
+Okay. So just so that I don't get the spelling wrong here, will it be possible to drop
+that in the chat?
+
+00:13:44,588 --> 00:13:45,238 [speaker_1]
+Yeah, sure.
+
+00:13:45,268 --> 00:13:45,868 [speaker_0]
+And then-
+
+00:13:45,908 --> 00:13:49,058 [speaker_1]
+It's basically the same as, uh, if you have my email address, it's the same, it's just info.
+
+00:13:49,058 --> 00:13:50,288 [speaker_0]
+Okay, the same one. Okay.
+
+00:13:50,308 --> 00:13:55,468 [speaker_1]
+Info instead of Ben. Yeah. But I will write it down for you.
+
+00:13:55,508 --> 00:14:08,088 [speaker_0]
+Yep. Uh, I'll get that from there. Cool. And then the number on which you'd... So the main line
+that you're using, we'll use the same number to send the SMS?
+
+00:14:09,068 --> 00:14:10,928 [speaker_1]
+Uh, the same number to send which, sorry?
+
+00:14:10,968 --> 00:14:15,778 [speaker_0]
+So we'll send the post call, like, whenever there is a new call from the customer,
+you'll get an SMS as well saying, "Hey-"
+
+00:14:15,828 --> 00:14:20,648 [speaker_1]
+Oh, yeah. Yeah. Actually, I was gonna ask about that too, if it affects text messages or not-
+
+00:14:20,668 --> 00:14:20,678 [speaker_0]
+Yes
+
+00:14:20,678 --> 00:14:24,038 [speaker_1]
+... but probably not. Oh, okay. Okay. So-
+
+00:14:24,038 --> 00:14:27,888 [speaker_0]
+So we'll have both the email and text message set up on that number.
+
+00:14:27,948 --> 00:14:28,738 [speaker_1]
+Okay. Perfect.
+
+00:14:28,768 --> 00:14:29,048 [speaker_0]
+So-
+
+00:14:29,088 --> 00:14:37,868 [speaker_1]
+And so, um, yeah, if people are text messaging me on this phone, that's not gonna get int- I'll,
+I'll get those text messages right away.
+
+00:14:37,877 --> 00:14:37,898 [speaker_0]
+Yeah. You can-
+
+00:14:37,898 --> 00:14:37,898 [speaker_1]
+Yeah.
+
+00:14:37,928 --> 00:14:51,178 [speaker_0]
+So your phone, your phone, the main line, it'll be working fine on, like,
+only the incoming calls are getting forwarded to Klara, but everything, the call...
+
+00:14:51,178 --> 00:14:51,218 [speaker_1]
+Mm-hmm.
+
+00:14:51,218 --> 00:14:55,308 [speaker_0]
+All of that is still, you know, pretty much the same.
+
+00:14:55,328 --> 00:14:55,408 [speaker_1]
+Perfect.
+
+00:14:55,428 --> 00:14:55,998 [speaker_0]
+In fact, exactly.
+
+00:14:56,008 --> 00:14:56,828 [speaker_1]
+Okay.
+
+00:14:56,908 --> 00:15:08,708 [speaker_0]
+So that is with the o-office hours. But coming to after hours, Ben,
+do you do any kind of dispatch for after hours?
+
+00:15:08,828 --> 00:15:12,268 [speaker_1]
+No, we don't do, um, emergency calls.
+
+00:15:12,308 --> 00:15:12,508 [speaker_0]
+Okay.
+
+00:15:12,608 --> 00:15:30,628 [speaker_1]
+Um, except for, you know, our existing builders, and, uh, I've got one property manager, um,
+that sometimes they've got some, they've got gas stations that are running twenty-four/seven.
+
+00:15:30,708 --> 00:15:45,068 [speaker_0]
+Okay. So if you have that one particular company, if you can help me with the details of
+that company, what we can do is, you know, if a call, if someone from
+
+00:15:45,108 --> 00:15:45,148 [speaker_1]
+Yeah
+
+00:15:45,158 --> 00:15:47,718 [speaker_0]
+... we can patch it through to...
+
+00:15:47,788 --> 00:15:52,408 [speaker_1]
+Oh, okay. So you can actually select one number that's allowed to get patched through?
+
+00:15:52,548 --> 00:16:01,377 [speaker_0]
+Yeah. But it, it's more... Yeah, we can use that number, or even
+if you give me the context of the property, because you don't know who will be calling from
+
+00:16:01,377 --> 00:16:02,008 [speaker_1]
+That's true.
+
+00:16:02,028 --> 00:16:09,668 [speaker_0]
+Yeah. If you can just give me the details of, yes, the customer name, address. If you have
+that handy, you can drop that in the chat.
+
+00:16:09,728 --> 00:16:09,968 [speaker_1]
+Yeah.
+
+00:16:09,988 --> 00:16:10,448 [speaker_0]
+But even if-
+
+00:16:10,548 --> 00:16:11,068 [speaker_1]
+Okay.
+
+00:16:11,128 --> 00:16:12,058 [speaker_0]
+Yeah. So-
+
+00:16:12,058 --> 00:16:12,238 [speaker_1]
+Uh
+
+00:16:12,248 --> 00:16:15,808 [speaker_0]
+... just the details, customer name, property name, their address-
+
+00:16:15,868 --> 00:16:16,228 [speaker_1]
+Yeah
+
+00:16:16,408 --> 00:16:18,388 [speaker_0]
+... pri-primary contact.
+
+00:16:18,628 --> 00:16:21,128 [speaker_1]
+It's all right here in my phone. Give me one moment.
+
+00:16:21,148 --> 00:16:21,828 [speaker_0]
+Yep.
+
+00:16:21,868 --> 00:16:51,388 [speaker_1]
+Um, so Shelley. Um... Okay, so I'll put it in the chat. It's weird, it's a property manager,
+but they also do a lot of, um, pressure washing and landscaping, so the company is actually called,
+
+00:16:51,508 --> 00:16:53,768 [speaker_0]
+I think they can use Klara as well.
+
+00:16:56,208 --> 00:17:28,528 [speaker_1]
+Yeah, they probably could. Um, mm-hmm. Did you say you need their email address as well?
+
+00:17:28,628 --> 00:17:43,498 [speaker_0]
+Yeah. I mean, any, any information that you already have so that when they call, you know, we'd--
+if they mention, "Hey, I'm Shelley," you know, or, "This is the number," or even if someone else
+
+00:17:43,548 --> 00:17:45,568 [speaker_1]
+Okay. From G&M Pressure Wash?
+
+00:17:45,648 --> 00:17:46,488 [speaker_0]
+Yep.
+
+00:17:46,648 --> 00:17:59,208 [speaker_1]
+Um, yeah, they, uh... Okay, how is this? See if I can copy it here.
+
+00:17:59,228 --> 00:18:07,498 [speaker_0]
+But G&M, uh, just one question there, Ben. So G&M is the property management company, but-
+
+00:18:07,528 --> 00:18:08,088 [speaker_1]
+Yes
+
+00:18:08,098 --> 00:18:18,088 [speaker_0]
+... the property... Okay. Uh, is it a specific property under them for
+which they would call for emergencies, or is it their facility itself?
+
+00:18:18,168 --> 00:18:30,504 [speaker_1]
+No, it's properties that they manage. So it's, um-It's gas stations. So we do, we do work for them.
+They, they manage, um, Chevron, uh, Chevron and Essos.
+
+00:18:30,564 --> 00:18:36,884 [speaker_0]
+Okay. So when they call, do they-- Uh, I think they'll be giving you the gas station details, right?
+
+00:18:37,844 --> 00:18:54,904 [speaker_1]
+Yes. Yeah. She'll, she'll normally, um... Geez, I've had a couple m--
+couple calls in the middle of the night, and, uh, she'll usually message me or sh- yeah,
+
+00:18:55,004 --> 00:18:55,984 [speaker_0]
+Okay. Yeah.
+
+00:18:56,084 --> 00:19:03,124 [speaker_1]
+Um, 'cause yeah, there's several, there's several properties. There's about twenty gas stations,
+you know, around the city that we work in.
+
+00:19:03,264 --> 00:19:03,684 [speaker_0]
+Yeah.
+
+00:19:03,704 --> 00:19:03,714 [speaker_1]
+Right.
+
+00:19:03,744 --> 00:19:14,124 [speaker_0]
+You probably have to just let her know, "Hey, I'm trying this, you know, new answering service out,
+so you can just call in and drop all the context, and I'll-
+
+00:19:14,224 --> 00:19:14,744 [speaker_1]
+Sure.
+
+00:19:14,753 --> 00:19:18,684 [speaker_0]
+-I'll, I'll be there. The call will be patched through right to me."
+
+00:19:18,764 --> 00:19:20,704 [speaker_1]
+Okay, perfect.
+
+00:19:21,524 --> 00:19:27,054 [speaker_0]
+Cool. Uh, so that covers the after-hours as well because there's only one property or, you know,
+one customer.
+
+00:19:27,084 --> 00:19:29,704 [speaker_1]
+Yeah. There's, there's really only the one customer. Yeah.
+
+00:19:29,724 --> 00:19:37,194 [speaker_0]
+For, for everyone else, we'll just have it as, uh, you know,
+we'll get back to you the next business day. And then, uh-
+
+00:19:37,204 --> 00:19:37,804 [speaker_1]
+Yeah.
+
+00:19:37,814 --> 00:19:44,424 [speaker_0]
+-the working hours are Monday to Friday. Shall we take directly from the website?
+I think it's Monday to Friday and then-
+
+00:19:44,504 --> 00:19:48,864 [speaker_1]
+Yeah. Monday to Friday. I think what the website says is eight to four-thirty.
+
+00:19:48,924 --> 00:19:49,194 [speaker_0]
+Yeah.
+
+00:19:49,224 --> 00:19:50,684 [speaker_1]
+Basically.
+
+00:19:50,754 --> 00:19:50,934 [speaker_0]
+Same time.
+
+00:19:50,934 --> 00:19:53,964 [speaker_1]
+Pretty much eight-thirty to five is kinda what we work, but yeah.
+
+00:19:53,984 --> 00:20:01,684 [speaker_0]
+Okay. Perfect. We'll use that information. Again, like I said, we're starting there, but if we,
+if we want to make any changes, we can always make that. Um-
+
+00:20:01,704 --> 00:20:02,264 [speaker_1]
+Okay.
+
+00:20:02,304 --> 00:20:16,924 [speaker_0]
+But yeah. Uh, that was pretty much it. Like, that was pretty much all the information
+that I needed because the rest of the information we're already using your website, uh,
+
+00:20:16,934 --> 00:20:16,934 [speaker_1]
+Okay.
+
+00:20:16,934 --> 00:20:23,324 [speaker_0]
+-this should already help us complete the configuration and send the details over to you. This
+is all the-
+
+00:20:23,364 --> 00:20:23,374 [speaker_1]
+Sweet.
+
+00:20:23,384 --> 00:20:26,654 [speaker_0]
+So I'll send a link to the dashboard where you can see-
+
+00:20:26,664 --> 00:20:26,674 [speaker_1]
+Yes.
+
+00:20:26,674 --> 00:20:55,984 [speaker_0]
+-all the calls and then the number. Uh,
+I'm purposefully not sharing the screen to show you the dashboard around, uh,
+
+00:20:56,004 --> 00:20:57,704 [speaker_1]
+Terrific.
+
+00:20:57,724 --> 00:21:06,554 [speaker_0]
+Cool. Uh, so for Friday, do you have a time in mind, Ben, where we can connect again? Just-
+
+00:21:06,604 --> 00:21:12,634 [speaker_1]
+Let me, uh, just make sure my schedule, I've got nothing else going on on Friday. Don't think I do.
+
+00:21:12,634 --> 00:21:15,644 [speaker_0]
+If same time works, if same time works, we can have it in the same time as well.
+
+00:21:15,664 --> 00:22:13,564 [speaker_1]
+Mm-hmm. I did. [laughs] Oh, I think, um... Where is that? I think I've got something on Friday.
+Hang on a moment. Where is that? Yeah. Noon's not gonna be good. Okay.
+
+00:22:13,624 --> 00:22:15,164 [speaker_0]
+Less than half an hour.
+
+00:22:15,204 --> 00:22:15,724 [speaker_1]
+Less than half an hour?
+
+00:22:16,304 --> 00:22:16,854 [speaker_0]
+Probably.
+
+00:22:16,854 --> 00:22:16,854 [speaker_1]
+Okay.
+
+00:22:16,854 --> 00:22:31,444 [speaker_0]
+Probably fifteen, twenty minutes. So what we'll essentially be doing is you would, uh,
+after receiving the details today, you just-- you will try making some test calls
+
+00:22:31,524 --> 00:22:31,534 [speaker_1]
+Okay.
+
+00:22:31,534 --> 00:22:38,474 [speaker_0]
+On Friday when we meet, it's more of if you observe something that needs changing, that's,
+that's something that we will-
+
+00:22:38,474 --> 00:22:38,484 [speaker_1]
+Yeah.
+
+00:22:38,504 --> 00:22:44,744 [speaker_0]
+-address on the call, and then I'll just walk you around, uh,
+the dashboard to s-probably show you some, uh-
+
+00:22:44,824 --> 00:22:45,144 [speaker_1]
+Okay.
+
+00:22:45,164 --> 00:22:45,654 [speaker_0]
+-nice features that are-
+
+00:22:45,654 --> 00:22:46,104 [speaker_1]
+Let's, um-
+
+00:22:46,114 --> 00:22:48,133 [speaker_0]
+-helpful.
+
+00:22:48,224 --> 00:22:53,564 [speaker_1]
+Yeah. Yeah. Okay. Let's do it in the afternoon. I think that'd be a little better.
+If you've got some time around two o'clock.
+
+00:22:54,504 --> 00:22:59,604 [speaker_0]
+Okay. That's fine. Uh, we can schedule it for two o'clock, uh, on Friday. And then-
+
+00:22:59,624 --> 00:23:01,004 [speaker_1]
+Perfect.
+
+00:23:01,084 --> 00:23:09,054 [speaker_0]
+Ideally... So once-- A-after we meet on Friday, we can, you know, have the setting already.
+We can forward-
+
+00:23:09,054 --> 00:23:09,054 [speaker_1]
+Have it go live.
+
+00:23:09,064 --> 00:23:22,344 [speaker_0]
+-the main line. We can have the... Because that's how it works, right?
+Once you put it in front of the customer, um, you'll, you'll see how, you know,
+
+00:23:22,464 --> 00:23:23,054 [speaker_1]
+Sweet. Okay.
+
+00:23:23,054 --> 00:23:25,474 [speaker_0]
+-not having to answer all the spam calls and...
+
+00:23:25,484 --> 00:23:27,144 [speaker_1]
+Yeah. So at-
+
+00:23:27,184 --> 00:23:27,294 [speaker_0]
+Yeah.
+
+00:23:27,294 --> 00:23:36,084 [speaker_1]
+Um, okay, so once we go live, um, then it's gonna answer the calls. Oh,
+we can configure it so it answers the calls if I don't, right?
+
+00:23:36,124 --> 00:23:37,234 [speaker_0]
+Yeah. So that's a setting-
+
+00:23:37,324 --> 00:23:37,334 [speaker_1]
+Okay.
+
+00:23:37,334 --> 00:23:43,344 [speaker_0]
+-that we can... Just be-- Uh, do you think, uh, the second number will be up by Friday, Ben?
+Would you-
+
+00:23:43,364 --> 00:23:43,414 [speaker_1]
+Yeah.
+
+00:23:43,424 --> 00:23:45,184 [speaker_0]
+Do you think that's a possibility?
+
+00:23:45,224 --> 00:23:45,504 [speaker_1]
+Yeah.
+
+00:23:45,524 --> 00:24:07,444 [speaker_0]
+That'll be ideal,
+where we can set it up in a way where we could forward all the calls from main line onto Clara,
+
+00:24:07,464 --> 00:24:08,014 [speaker_1]
+Right. Okay.
+
+00:24:08,014 --> 00:24:12,004 [speaker_0]
+We don't want to, um, you know, create a lot of friction there, so we can just patch them through.
+
+00:24:12,014 --> 00:24:12,014 [speaker_1]
+Yeah. Okay.
+
+00:24:12,024 --> 00:24:17,364 [speaker_0]
+But, you know, we'll just get a quick purpose of, you know, why they're calling and then-
+
+00:24:17,404 --> 00:24:18,764 [speaker_1]
+Okay.
+
+00:24:18,784 --> 00:24:33,534 [speaker_0]
+So in the initial few days, there'll be that calibration where, you know, uh, all the--
+along with all the spam call, you know, one or two spam calls might be going through, uh, you know,
+
+00:24:33,644 --> 00:24:33,734 [speaker_1]
+Right.
+
+00:24:33,734 --> 00:24:44,664 [speaker_0]
+-we will... It'd probably be the edge cases here
+and there where someone told something a little differently, and then they,
+
+00:24:44,804 --> 00:24:45,194 [speaker_1]
+Oh, okay.
+
+00:24:45,194 --> 00:24:48,274 [speaker_0]
+-make a sales call, right? So we'll try-
+
+00:24:48,274 --> 00:24:48,274 [speaker_1]
+Yeah.
+
+00:24:48,274 --> 00:24:56,464 [speaker_0]
+We'll try to have all of that minimized. We'll start off with, you know,
+keeping the door relatively closed. We'll-
+
+00:24:56,484 --> 00:24:56,654 [speaker_1]
+Okay.
+
+00:24:56,924 --> 00:24:59,034 [speaker_0]
+-shut the door, you know, as we go.
+
+00:24:59,044 --> 00:25:02,324 [speaker_1]
+Okay. Yeah. Sounds good.
+
+00:25:02,364 --> 00:25:10,964 [speaker_0]
+Cool then. We'll have the testing piece taken care of in the following conversations,
+and should everything go well, we can, uh, get things up and running for you.
+
+00:25:10,984 --> 00:25:12,624 [speaker_1]
+That'd be great. I like it.
+
+00:25:12,644 --> 00:25:26,914 [speaker_0]
+Cool then. Cool then. Yeah, just watch out for my email there, uh, Ben. I'll drop, uh,
+the details of the agent, the number, uh, which you can dial to talk to the agent. Nothing
+
+00:25:26,964 --> 00:25:27,174 [speaker_1]
+Okay.
+
+00:25:27,174 --> 00:25:31,084 [speaker_0]
+-you know, see the post-call workflow in that way as well. But yeah.
+
+00:25:31,104 --> 00:25:31,534 [speaker_1]
+Fantastic.
+
+00:25:31,564 --> 00:25:36,624 [speaker_0]
+Uh, so that was all I had from my side. Uh, thank you so much for your time, Ben. But yeah-
+
+00:25:36,764 --> 00:25:36,774 [speaker_1]
+Sure.
+
+00:25:36,774 --> 00:25:39,784 [speaker_0]
+-over to you, Bharath. Yeah.
+
+00:25:39,844 --> 00:25:40,424 [speaker_1]
+Awesome.
+
+00:25:40,444 --> 00:25:44,834 [speaker_0]
+I think go, go, uh, Bharath. Thanks. I'll just... I'll see you, Ben. Just watch out my e--
+watch out for my email.
+
+00:25:45,564 --> 00:25:45,574 [speaker_1]
+Okay.
+
+00:25:45,624 --> 00:25:46,344 [speaker_0]
+Thank you, Pavan.
+
+00:25:46,384 --> 00:25:46,394 [speaker_1]
+You bet.
+
+00:25:46,394 --> 00:25:47,904 [speaker_0]
+Yeah, thanks.
