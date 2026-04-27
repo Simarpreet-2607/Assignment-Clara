@@ -1,4 +1,4 @@
-# Assignment-Clara 
+Clara 
 ### Zero-Cost Automation Pipeline for Retell Agent Generation
 
 This project implements a fully automated, zero-cost pipeline that processes demo call transcripts to generate preliminary Retell agent configurations and then updates those configurations based on onboarding inputs.
